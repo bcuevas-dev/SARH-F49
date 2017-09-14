@@ -8,18 +8,23 @@ namespace SARH.Core.Enums
 {
     public class Enumerators
     {
-        public enum Status
+        public enum Estatus
         {
-            Activ,
-            Inactive
+            Activo,
+            Inactivo
 
         }
-        public enum CivilStatus
+        public enum EstadoCivil
         {
-            free_Union,
-            married,
-            single,
-            divorced
+            Union_libre,
+            Soltero,
+            Casado,
+            Divorciado
+        }
+        public enum TipoDocumento
+        {
+            cedula,
+            passaporte
         }
       
     }

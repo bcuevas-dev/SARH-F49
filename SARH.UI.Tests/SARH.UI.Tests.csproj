@@ -92,6 +92,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SARH.Core\SARH.Core.csproj">
+      <Project>{a9e72f3d-485a-4502-851f-4584af07c014}</Project>
+      <Name>SARH.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SARH.Models\SARH.Models.csproj">
+      <Project>{33552652-1a01-463e-b95f-89fecc1b856d}</Project>
+      <Name>SARH.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SARH.UI\SARH.UI.csproj">
       <Project>{A75C5042-2D55-4316-9953-E6F4AECAFCB0}</Project>
       <Name>SARH.UI</Name>

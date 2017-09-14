@@ -41,6 +41,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,18 +51,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EF\Entities\centro_educativo.cs" />
+    <Compile Include="EF\Entities\departamento.cs" />
+    <Compile Include="EF\Entities\distrito_educativo.cs" />
+    <Compile Include="EF\Entities\distrito_municipal.cs" />
+    <Compile Include="EF\Entities\empleado.cs" />
+    <Compile Include="EF\Entities\empleado_familia.cs" />
+    <Compile Include="EF\Entities\formacion_academica.cs" />
+    <Compile Include="EF\Entities\funcion.cs" />
+    <Compile Include="EF\Entities\instancia_militar.cs" />
+    <Compile Include="EF\Entities\municipio.cs" />
+    <Compile Include="EF\Entities\nacionalidad.cs" />
+    <Compile Include="EF\Entities\ocupacion.cs" />
+    <Compile Include="EF\Entities\parentezco_familiar.cs" />
+    <Compile Include="EF\Entities\profesion.cs" />
+    <Compile Include="EF\Entities\provincia.cs" />
+    <Compile Include="EF\Entities\rango.cs" />
+    <Compile Include="EF\Entities\regional_educativa.cs" />
+    <Compile Include="EF\Entities\sysdiagrams.cs" />
+    <Compile Include="EF\Entities\tanda_laboral.cs" />
+    <Compile Include="EF\Entities\tipo_armas.cs" />
+    <Compile Include="EF\Entities\tipo_ingreso.cs" />
     <Compile Include="EF\SARHDbContext.cs" />
     <Compile Include="Enums\Enumerators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EF\Entities\" />
     <Folder Include="EF\Repository\" />
     <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

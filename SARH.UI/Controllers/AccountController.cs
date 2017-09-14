@@ -8,7 +8,8 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using SARH.UI.Models;
+using SARH.Models;
+
 
 namespace SARH.UI.Controllers
 {
